@@ -1,0 +1,21 @@
+.slider-container>.slider>.pre:hover, .slider-container>.slider>.next:hover{
+	background-color: rgba(0,0,0,0.1);
+}
+.slider-container>.slider>.pre, .slider-container>.slider>.next{
+	width: 60px;
+	height: 100%;
+	cursor: pointer;
+	position: absolute;
+	display: block;
+	background-image: url('image/arrow.png');
+	background-size: 60px 60px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.pre{
+	transform: rotate(0deg);
+}
+.next{
+	right: 0;
+	transform: rotate(180deg);
+}

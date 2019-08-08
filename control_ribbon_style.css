@@ -1,0 +1,24 @@
+/*style for control_ribbon.php (start)*/
+.control_ribbon_style{
+	position: absolute;
+	width: 80%;
+	background: black;
+	border-radius: 10px;
+
+}
+.control_ribbon_style>.control_option>a{
+	font-size: 17px;
+	display: block;
+	float: right;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: capitalize;
+	background-color: black;
+	color: white;
+	font-family: Georgia Regular;
+}
+.control_ribbon_style>.control_option>a:hover{
+	cursor: pointer;
+	color: #3b7a9d;
+}
+/*style for control_ribbon.php (end)*/

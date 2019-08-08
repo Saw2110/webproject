@@ -1,0 +1,20 @@
+/*style for admin_bash.php page (start)*/
+.admin_bash_table>p>table,.admin_bash_table>p>table td,.admin_bash_table>p>table th{
+	border-color: #e2e2e2;
+	color: grey;
+	font-family: Georgia Regular;
+}
+.admin_bash_table>p>table th{
+	font-size: 20px;
+	color: #808080;
+}
+.admin_bash_table>p>table{
+	width: 60%;
+}
+.admin_bash_table>p>table td{
+	font-size: 18px;
+}
+.admin_bash_table>p>table td,.admin_bash_table>p>table th{
+	text-align: center;
+}
+/*style for admin_bash.php page (end)*/
